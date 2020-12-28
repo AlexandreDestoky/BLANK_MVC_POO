@@ -1,0 +1,11 @@
+{
+    "name": "asus/public",
+    "require": {},
+    "autoload" : {
+      "psr-4": {
+        "App\\Controleurs\\":"app/controleurs",
+        "App\\Modeles\\":"app/modeles",
+        "Noyau\\Classes\\":"noyau/classes"
+      }
+    }
+}
