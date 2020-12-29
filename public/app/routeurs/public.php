@@ -17,5 +17,10 @@
   ACTION: indexAction
 */
 
-    include_once '../app/controleurs/defaultsControleur.php';
-    Controleurs\Defaults\indexAction();
+// Procédurale
+    // include_once '../app/controleurs/defaultsControleur.php';
+    // Controleurs\Defaults\indexAction();
+
+//Objet
+    $pageCtrl = new App\Controleurs\PagesControleur();
+    $pageCtrl->indexAction();
