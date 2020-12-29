@@ -8,3 +8,6 @@
  ?>
 
  <h1>Bonjour index Action</h1>
+ <div>
+   <?php echo $page; ?>
+ </div>

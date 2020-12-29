@@ -5,4 +5,11 @@
  * Modèle default
  */
 
-namespace Modeles\Default;
+namespace App\Modeles;
+
+class PagesGestionnaire {
+  public function findOneById (int $id = 1) {
+    //SQL
+    return "Coucou Gestionnaire";
+  }
+}

@@ -34,6 +34,9 @@ class ComposerStaticInit01db1d4a02c3e25c66f4f2e2c5f53966
     );
 
     public static $classMap = array (
+        'App\\Controleurs\\PagesControleur' => __DIR__ . '/../..' . '/app/controleurs/PagesControleur.php',
+        'App\\Controleurs\\TestsControleur' => __DIR__ . '/../..' . '/app/controleurs/TestsControleur.php',
+        'App\\Modeles\\PagesGestionnaire' => __DIR__ . '/../..' . '/app/modeles/PagesGestionnaire.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

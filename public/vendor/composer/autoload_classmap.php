@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controleurs\\PagesControleur' => $baseDir . '/app/controleurs/PagesControleur.php',
+    'App\\Controleurs\\TestsControleur' => $baseDir . '/app/controleurs/TestsControleur.php',
+    'App\\Modeles\\PagesGestionnaire' => $baseDir . '/app/modeles/PagesGestionnaire.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

@@ -23,4 +23,4 @@
 
 //Objet
     $pageCtrl = new App\Controleurs\PagesControleur();
-    $pageCtrl->indexAction();
+    $pageCtrl->showAction();
