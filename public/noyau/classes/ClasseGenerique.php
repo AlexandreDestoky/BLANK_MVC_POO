@@ -1,4 +1,8 @@
 <?php
+/**
+ * ./noyau/classes/ClasseGenerique.php 
+ * Classe Générique avec un hydrateur
+ */
 
 namespace Noyau\Classes;
 

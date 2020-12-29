@@ -7,8 +7,14 @@
 
 // Chargement du fichier d'initialisation
 // require_once '../noyau/init.php';
+require_once "../app/config/parametres.php";
 require_once "../vendor/autoload.php";
 
+//Démarrage de l'application
+\Noyau\Classes\App::start();
+
+var_dump(\Noyau\Classes\App::getConnexion());
+// App::getConnexion();
 
 
 // Chargement du routeur
@@ -23,6 +29,8 @@ if (!(isset($_SERVER['HTTP_X_REQUESTED_WITH'])
   // Traitement pour une requête NON AJAX
   require_once '../app/vues/templates/' . $template . 'defaut.php';
 }
+// \Noyau\Classes\App::getTemplate();
 
-    // Fermeture de la connexion
-        // unset($connexion);
+// Fermeture de l'application
+// unset($connexion);
+\Noyau\Classes\App::close();
